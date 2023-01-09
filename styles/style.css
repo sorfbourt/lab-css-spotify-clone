@@ -5,4 +5,107 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
+
+
+div, section {
+    border:1px solid black;
+}
 */
+body {
+    margin:0;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#1A1A1A;
+}
+
+nav {
+    background-color: white;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+h4{
+    font-size: 1.25em;
+}
+
+#heroImage{
+background-image: url(../images/landing.jpg);
+height:600px;
+background-size:cover;
+background-position: bottom 0px right 0px;
+text-align:center;
+}
+
+#mainLogo{
+    height:50px;
+    width: auto;
+
+}
+
+#whatsOnColumns, #yeezy{
+    margin: 30px;
+}
+
+nav {
+    width: 600px;
+    margin:10px 0px;
+    position:relative;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .imageIcons{
+    width:60px;
+    height:60px;
+  }
+
+  .whiteText {
+    color:white;
+  }
+
+  #whatsOnColumns{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  #whatsOnColumns h4 {
+    color:#00B172;
+  }
+
+  #whatsOn h2{
+    text-align:center;
+  }
+
+  #yeezy {
+    background-color: #00B172;
+    display:flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+  }
+
+  #yeezy div{
+    width:50%;
+  }
+
+  #spotify-icon-white{
+    width:40px;
+    height:40px;
+  }
+
+  #spotify-app{
+    width:200px;
+  }
